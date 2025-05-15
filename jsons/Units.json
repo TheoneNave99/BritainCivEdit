@@ -5,12 +5,25 @@
 	   	"replaces": "Rifleman",
 		"uniqueTo": "Great Britain",
 		"movement": 2,
-		"strength": 32,
+		"strength": 33,
 		"cost": 200,
 		"requiredTech": "Rifling",
 	        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[1] Movement point cost to disembark"],
                 "obsoleteTech": "Replaceable Parts", 
 		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+   },
+   {
+		"name": "Light Infantry",
+		"unitType": "Gunpowder",
+	        "uniqueTo": "Great Britain",
+		"movement": 4,
+		"strength": 27,
+		"cost": 150,
+	        "promotions": ["Ignore terrain cost", "Drill I"],
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Infantry",
 		"attackSound": "shot"
    },
    {
