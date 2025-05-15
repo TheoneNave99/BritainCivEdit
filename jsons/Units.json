@@ -1,9 +1,9 @@
 [
 {
-		"name": "Redcoat",
+		"name": "Redcoat2",
 		"unitType": "Gunpowder",
 	   	"replaces": "Rifleman",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Great Britain2",
 		"movement": 2,
 		"strength": 33,
 		"cost": 200,
@@ -16,7 +16,7 @@
    {
 		"name": "Light Infantry",
 		"unitType": "Gunpowder",
-	        "uniqueTo": "Great Britain",
+	        "uniqueTo": "Great Britain2",
 		"movement": 4,
 		"strength": 27,
 		"cost": 150,
@@ -27,10 +27,10 @@
 		"attackSound": "shot"
    },
    {
-	        "name": "Ship of the Line (Great Britain)",
+	        "name": "Ship of the Line (Great Britain2)",
 		"unitType": "Ranged Water",
 		"replaces": "Frigate",
-		"uniqueTo": "Great Britain",
+		"uniqueTo": "Great Britain2",
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 35,
