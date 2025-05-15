@@ -13,5 +13,15 @@
 		"[+1 Gold] from [Luxury resource] tiles [in this city]"],
 		"requiredTech": "Navigation",
 	},
+	{
+		"name": "Fishing Fleet",
+		"uniqueTo": "Great Britain",
+		"cost": 80,
+		"food": 2,
+		"maintenance": 2,
+		"uniques": ["Must be next to [Coast]", 
+		"[+2 Food] from [Water resource] tiles [in this city]"],
+		"requiredTech": "Compass",
+	},
 
 ]
