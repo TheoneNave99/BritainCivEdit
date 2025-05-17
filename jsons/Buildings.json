@@ -1,8 +1,8 @@
 [
 {
-		"name": "Royal Naval Dockyard2",
+		"name": "Royal Naval Dockyard",
 		"replaces": "Seaport",
-		"uniqueTo": "Great Britain2",
+		"uniqueTo": "Great Britain",
 		"hurryCostModifier": 25,
 		"production": 2,
 		"maintenance": 3,
@@ -14,14 +14,17 @@
 		"requiredTech": "Navigation",
 	},
 	{
-		"name": "Fishing Fleet",
-		"uniqueTo": "Great Britain2",
-		"cost": 80,
-		"food": 2,
-		"maintenance": 2,
-		"uniques": ["Must be next to [Coast]", 
-		"[+2 Food] from [Water resource] tiles [in this city]"],
-		"requiredTech": "Compass",
+		"name": "Royal University",
+		"replaces": "University",
+		"uniqueTo": "Great Britain",
+		"maintenance": 3,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 30},
+		"specialistSlots": {"Scientist": 2},
+		"culture": 3,
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Coast] tiles [in this city]"],
+		"requiredTech": "Education"
 	},
 
 ]
