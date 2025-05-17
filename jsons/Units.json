@@ -39,8 +39,8 @@
 		"cost": 150,
 	        "promotions": ["Ignore terrain cost", "Drill I"],
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
-		"upgradesTo": "Infantry",
+                "obsoleteTech": "Replaceable Parts", 
+		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
    },
 	{
